@@ -1,0 +1,11 @@
+{
+  "name": "aom-iot-feeds",
+  "version": "1.0.0",
+  "description": "GET from and POST to simple HTTP feeds",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "delta-12",
+  "license": "ISC"
+}
