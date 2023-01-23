@@ -57,6 +57,18 @@ router.get("/all", (req, res) => {
     })
 })
 
+router.get("/feeds", (_, res) => {
+    Feed
+        .find()
+        .then(feeds => {
+            if (!feeds) {
+                return res.status(404).json({ error: "Feeds not found" })
+            }
+            return res.status(200).json({ feeds: feeds })
+        })
+        .catch(err => res.status(500).json({ error: err }))
+})
+
 router.post("/data", (req, res) => {
     const feedKey = req.body.key
     const feedData = req.body.value

@@ -1,5 +1,5 @@
 {
-  "name": "aom-iot-feeds",
+  "name": "aom-iot-feeds-backend",
   "version": "1.0.0",
   "description": "GET from and POST to simple HTTP feeds",
   "main": "server.js",
