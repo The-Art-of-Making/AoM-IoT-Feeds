@@ -4,10 +4,10 @@
   "description": "GET from and POST to simple HTTP feeds",
   "main": "server.js",
   "scripts": {
-    "frontend-install": "npm install --prefix ../frontend",
     "start": "node server.js",
     "backend": "nodemon server.js",
     "frontend": "npm start --prefix ../frontend",
+    "build": "npm install --prefix ../frontend && npm run build --prefix ../frontend && npm install .",
     "dev": "concurrently \"npm run backend\" \"npm run frontend\""
   },
   "author": "delta-12",
