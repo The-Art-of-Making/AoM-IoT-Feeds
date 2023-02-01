@@ -49,3 +49,8 @@ View a demo at [https://aom-iot-feeds.onrender.com](https://aom-iot-feeds.onrend
 3. Start the container
 
    `docker-compose up`
+
+## TODO
+
+- [ ] Update site icons
+- [ ] Document API endpoints
