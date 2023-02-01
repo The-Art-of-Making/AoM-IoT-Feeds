@@ -52,5 +52,5 @@ View a demo at [https://aom-iot-feeds.onrender.com](https://aom-iot-feeds.onrend
 
 ## TODO
 
-- [ ] Update site icons
+- [x] Update site icons
 - [ ] Document API endpoints
