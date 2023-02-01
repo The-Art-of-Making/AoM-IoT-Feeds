@@ -2,6 +2,8 @@
 
 Simple web app and backend service to test replacing Adafruit IO
 
+View a demo at [https://aom-iot-feeds.onrender.com](https://aom-iot-feeds.onrender.com/)
+
 ## Prerequisites
 
 1. Node.js and npm
@@ -14,7 +16,7 @@ Simple web app and backend service to test replacing Adafruit IO
 
 3. Docker (for testing and deployment)
 
-   See [https://www.docker.com/](https://www.docker.com/) for installation instructions. Make sure to install `docker-compose` with Docker
+   See [https://www.docker.com](https://www.docker.com/) for installation instructions. Make sure to install `docker-compose` with Docker
 
 ## Getting Started
 
